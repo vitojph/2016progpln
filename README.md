@@ -1,5 +1,7 @@
 # Programación para el Procesamiento del Lenguaje Natural
 
+[![Join the chat at https://gitter.im/progpln/Lobby](https://badges.gitter.im/progpln/Lobby.svg)](https://gitter.im/progpln/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Grado en Lingüística y Lenguas Aplicadas, Fac. de Filología, UCM
 
 Curso 2016-2017
