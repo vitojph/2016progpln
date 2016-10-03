@@ -1,7 +1,7 @@
 ---
 title: "Introducción al PLN | ProgPLN"
 author: "Víctor Peinado"
-date: "30 de septiembre de 2016"
+date: "30 de septiembre - 6 de octubre de 2016"
 output:
   rmarkdown::tufte_handout:
     highlight: pygments
@@ -56,26 +56,25 @@ De este modo, podemos identificar algunas de las tareas más comunes del área:
 
 - Traducción automática (*machine translation*): [Google Translate](http://translate.google.es)
 
-- Extracción de información (*information extraction*): [TripIt](https://www.tripit.com/)
+- Extracción de información (*information extraction*): [TripIt](https://www.tripit.com/) y los [bundles de Inbox](https://support.google.com/inbox/answer/6228360?hl=en)
 
 - Reconocimiento del habla (*automatic speech reconition*) y síntesis de voz (*speech synthesis*): [Google Voice Search](http://www.google.com/insidesearch/features/voicesearch/index-chrome.html)
 
-- Recuperación de información (*information retrieval*): [Google Search](),
-  [Bing](http://www.bing.com) y [Wolfram|Alpha](http://www.wolframalpha.com/)
+- Recuperación de información (*information retrieval*): [Google Search](https://support.google.com/websearch/answer/134479?hl=en&ref_topic=3081620),
+  [Bing](http://www.bing.com) y [Wolfram|Alpha](https://www.wolframalpha.com/examples/)
 
 - Resumen automático (*automatic summarization*) y generación automática de textos: [Quakebot](http://www.latimes.com/local/earthquakes/) y [Automated Insights](http://automatedinsights.com/)
 
-- Búsqueda de respuestas (*question answering*): [Ask.com](http://www.ask.com),
-  [Watson](http://www.youtube.com/watch?v=WFR3lOm_xhE)
+- Búsqueda de respuestas (*question answering*): tímidos intentos de [Google](https://www.google.es/?gfe_rd=cr&ei=MMHyV_uRNO2gzAbS7ITIDw#q=cu%C3%A1nto+mide+torre+picasso) o [Bing](https://www.bing.com/search?q=d%c3%b3nde+est%c3%a1+pamplona&qs=HS&pq=d%c3%b3nde+es&sc=8-8&sp=1&cvid=551C10183EB545CA92783A664393826F&FORM=QBRE) y, sbre todo, [Watson](http://www.youtube.com/watch?v=WFR3lOm_xhE)
 
-- Análisis de opiniones (*sentiment analysis*) [NaturalOpinions](http://demos.bitext.com/naturalopinions/)
+- Análisis de opiniones (*sentiment analysis*): [Bitext](https://blog.bitext.com/) y [Atribus](http://www.atribus.com)
 
-- Comprensión del lenguaje natural (*natural language understanding*): [Siri](http://www.apple.com/es/ios/siri/), [Ok Google](https://support.google.com/websearch/answer/2940021?hl=es) y [Cortana](http://windows.microsoft.com/es-es/windows-10/getstarted-what-is-cortana)
+- Comprensión del lenguaje natural (*natural language understanding*): [Siri](https://www.apple.com/ios/siri/), [Google Now](https://www.google.com/search/about/learn-more/now/) y [Cortana](https://support.microsoft.com/en-us/help/17214/windows-10-what-is)
 
 
 ## Problemas resueltos y cuestiones abiertas
 
-![Language Technologies](img/langtech-progress.png)
+![Language Technologies Progress, according to Stanford NLP](img/langtech-progress.png)
 
 
 # ¿Por qué es tan difícil el PLN?
@@ -95,7 +94,7 @@ Esta ambigüedad existe a varios niveles:
 - ambigüedad de discurso: correferencia, resolución de anáforas.
 
 
-![Language Technologies](img/nlp-difficulties.png)
+![Language Technologies Difficulties, according to Stanford NLP](img/nlp-difficulties.png)
 
 
 Según la ACL (*Association for Computational Linguistics*): *Computational Linguistics, or Natural Language Processing (NLP), is not a new field*[^acl-faq], sin embargo no es sencillo definir los límites de la disciplina. Así que podemos considerarla como un conjunto de problemas relacionados con fenómenos lingüísticos y una amalgama de soluciones computacionales, de distinto tipo dependiendo del origen del investigador. 
