@@ -38,6 +38,11 @@ Es un programita sencillo que no requiere instalación. Simplemente:
 Cualquier sistema operativo de tipo UNIX (como Linux y OS X) tienen clientes SSH desde el terminal. En principio, no hace falta instalar nada.
 
 
+## Secure Shell: extensión para Google Chrome
+
+Existe la posibilidad de conectarnos a máquinas por SSH desde cualquier sistema operativo a través del navegador Chrome. Basta con que instalemos previamente la extensión Secure Shell. [^secureshell]
+
+
 # Conectar a una máquina remota
 
 Una vez estamos provistos de un cliente SSH, para conectarnos a un ordenador de forma remota necesitamos tres datos:
@@ -49,7 +54,7 @@ Una vez estamos provistos de un cliente SSH, para conectarnos a un ordenador de 
 3. La contraseña que te da acceso y que solo tú conoces. Si nunca la has cambiado, por defecto será ``cambiala``. Pero hazme caso y cámbiala la primera vez que te conectes tecleando ``passwd``.
 
 
-## Conexión con PuTTY
+# Conexión con PuTTY
 
 Para conectar, tecleamos el nombre del ordenador remoto en el recuadro *Host name* y pulsamos *Open*. \marginnote{En los pantallazos, aparece como nombre de servidor una máquina que ya no funciona. Por favor, olvídalo y utiliza siempre la IP de nuestro servidor: \texttt{139.162.146.12}.}
 
@@ -95,7 +100,7 @@ Cuando abrimos una conexión con PuTTY, el ordenador remoto nos pedirá que nos 
 ![interfaz principal de PuTTY](img/putty6.png)
 
 
-# ¡Ya estamos dentro!
+## ¡Ya estamos dentro!
 
 Si nos identificamos correctamente, entramos en el sistema y recibimos un mensaje de bienvenida. 
 
@@ -104,9 +109,20 @@ Para estar seguros de que tenemos correctamente configurada la codificación, po
 ![interfaz principal de PuTTY](img/putty7.png)
 
 
+# Conexión con Secure Shell (en Google Chrome)
+
+Para configurar una conexión, hacemos clic en `[New Conection]`. En los campos `hostname` y `username` introducimos, respectivamente, la IP de nuestro servidor (`139.162.146.12`) y tu nombre de usuario. 
+
+![interfaz principal de Secure Shell](img/secureshell-login-1.png)
+
+Después, hacemos clic en el botón de la esquina inferior derecha llamado `[ENTER] Connect`. El sistema nos pedirá la contraseña. Si nos autentificamos correctamente, verremos la pantalla de bienvenida del servidor.
+
+![login con Secure Shell](img/secureshell-login-2.png)
+
 
 [^ssh]: http://es.wikipedia.org/wiki/Secure_Shell
 [^telnet]: http://es.wikipedia.org/wiki/Telnet
 [^putty]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
 [^putty-download]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 [^putty-exe]: http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
+[^secureshell]: https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo
