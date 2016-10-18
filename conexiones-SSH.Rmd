@@ -1,7 +1,7 @@
 ---
 title: "Conexiones SSH | ProgPLN"
 author: "Víctor Peinado"
-date: "16 de octubre de 2015"
+date: "13 de octubre de 2016"
 output:
   rmarkdown::tufte_handout:
     highlight: pygments

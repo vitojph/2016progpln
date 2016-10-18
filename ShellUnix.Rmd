@@ -1,7 +1,7 @@
 ---
 title: "Introducción a la shell | ProgPLN"
 author: "Víctor Peinado"
-date: "13-14 de octubre de 2016"
+date: "13-20 de octubre de 2016"
 output:
   rmarkdown::tufte_handout:
     highlight: pygments
