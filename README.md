@@ -12,7 +12,11 @@ Este repositorio contiene apuntes y ejemplos de cuadernos de [IPython Notebooks]
 
 ### Apuntes
 
-TBA
+- [Introducción al Procesamiento del Lenguaje Natural](IntroPLN.pdf)
+- [Conexiones SSH](conexiones-SSH.pdf) 
+- [Introducción a la shell de Unix](ShellUnix.pdf)
+- [Procesamiento básico de texto en Unix](ShellUnix-proc-text.pdf)
+
 
 ### Cuadernos
 
