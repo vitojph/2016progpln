@@ -1,7 +1,7 @@
 ---
 title: "Expresiones regulares | ProgPLN"
 author: "Víctor Peinado"
-date: "4-10 de noviembre de 2016"
+date: "3-10 de noviembre de 2016"
 output:
   rmarkdown::tufte_handout:
     highlight: pygments
@@ -16,6 +16,8 @@ output:
 
 - regular-expressions.info [^regexinfo]
 
+- textos de ejemplo con RegExr [^ejemplo-regexr]
+
 
 
 # Expresiones regulares
@@ -26,9 +28,9 @@ Para crear una expresión regular debemos utilizar una sintaxis específica, es 
 
 Para nuestras pruebas iniciales, vamos a jugar con un par de herramientas *online*:
 
-- RegexPal [^regexpal]
-
 - RegExr [^regexr]
+
+- RegexPal [^regexpal]
 
 - Refiddle [^refiddle]
 
@@ -206,3 +208,5 @@ Estos metacaracteres se pueden combinar con los cuantificadores, de manera que:
 [^refiddle]: http://refiddle.com
 
 [^rubular]: http://rubular.com
+
+[^ejemplo-regexr]: http://regexr.com/3eiun
