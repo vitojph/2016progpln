@@ -10,3 +10,9 @@ Curso 2016-2017
 
 Este directorio contiene cuadernos de [IPython Notebooks](http://ipython.org/notebook.html) usados en clase para aprender rudimentos de programación en Python y algunas de las herramientas de procesamiento del lenguaje más habituales.
 
+- [Introducción a Python](1-Intro-Python.ipynb)
+- [Python: control de flujo](2-Python-control-flujo.ipynb)
+- [Python: bucles `for` y `while`](3-Python-bucles.ipynb)
+- [Python: definición de funciones](4-Python-funciones.ipynb)
+
+
