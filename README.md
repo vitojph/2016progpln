@@ -27,4 +27,9 @@ Este repositorio contiene apuntes y ejemplos de cuadernos de [IPython Notebooks]
 - [NLTK: acceso a corpus de texto y recursos léxicos](notebooks/5-nltk-corpus.ipynb)
 - [NLTK: etiquetado morfológico](notebooks/6-nltk-pos.ipynb)
 - [NLTK: análisis sintácticos](notebooks/7-nltk-analyzers.ipynb)
+- [Procesamiento del Lenguaje Natural con `textblob`](notebooks/8-textblob.ipynb)
+- [Accediendo a Twitter con `tweepy`](notebooks/9-tweepy.ipynb)
+- [Bots de Telegram con `telebot`](notebooks/10-telegram.ipynb)
+- [Modelos de Espacio Vectorial y tf.idf](notebooks/11-VSM.ipynb)
+- [Creando *word embeddings* con `gensim`](notebooks/12-word2vec.ipynb)
 
